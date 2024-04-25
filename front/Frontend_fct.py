@@ -53,7 +53,7 @@ def execute_API(df):
 
     st.subheader('Client difficulties : ')
     request = requests.post(
-        url="https://proj8backend-5060a747d1a0.herokuapp.com/",
+        url="https://proj8backend-5060a747d1a0.herokuapp.com/predict",
         data=json.dumps(df))
     prediction = request.json()["prediction"]
     probability = round(request.json()["probability"], 2)
