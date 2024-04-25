@@ -53,7 +53,7 @@ def execute_API(df):
 
     st.subheader('Client difficulties : ')
     request = requests.post(
-        url="https://credit-fastapi-oc.herokuapp.com/predict",
+        url="https://proj8backend-5060a747d1a0.herokuapp.com/",
         data=json.dumps(df))
     prediction = request.json()["prediction"]
     probability = round(request.json()["probability"], 2)
