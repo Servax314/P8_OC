@@ -1,4 +1,4 @@
-# Prêt-a-dépenser : API for loan default prediction
+# Backend
 
 This API has been deployed on heroku :
 https://proj8backend-5060a747d1a0.herokuapp.com/
