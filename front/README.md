@@ -1,7 +1,6 @@
-# Prêt-à-dépenser : Streamlit Dashboard
+# Frontend
 
-This dashboard has been deployed on : https://dubois-credit-frontend-home.streamlit.app/
-
+https://francisp8.streamlit.app/
 
 # Dashboard Content
 
